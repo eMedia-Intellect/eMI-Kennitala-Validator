@@ -1,0 +1,254 @@
+﻿<!--
+Copyright © 2019 eMedia Intellect.
+
+This file is part of eMI Kennitala Validator.
+
+eMI Kennitala Validator is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+eMI Kennitala Validator is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with eMI Kennitala Validator. If not, see http://www.gnu.org/licenses/.
+-->
+<StyleCopSettings Version="105">
+	<Analyzers>
+		<Analyzer AnalyzerId="StyleCop.CSharp.DocumentationRules">
+			<Rules>
+				<Rule Name="ElementsMustBeDocumented">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="PartialElementsMustBeDocumented">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="EnumerationItemsMustBeDocumented">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="DocumentationMustContainValidXml">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="ElementDocumentationMustHaveSummary">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="PartialElementDocumentationMustHaveSummary">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="ElementDocumentationMustHaveSummaryText">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="PartialElementDocumentationMustHaveSummaryText">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="ElementDocumentationMustNotHaveDefaultSummary">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="ElementParametersMustBeDocumented">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="ElementParameterDocumentationMustMatchElementParameters">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="ElementParameterDocumentationMustDeclareParameterName">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="ElementParameterDocumentationMustHaveText">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="ElementReturnValueMustBeDocumented">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="ElementReturnValueDocumentationMustHaveText">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="VoidReturnValueMustNotBeDocumented">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="GenericTypeParametersMustBeDocumented">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="GenericTypeParametersMustBeDocumentedPartialClass">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="GenericTypeParameterDocumentationMustMatchTypeParameters">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="GenericTypeParameterDocumentationMustDeclareParameterName">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="GenericTypeParameterDocumentationMustHaveText">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="PropertySummaryDocumentationMustMatchAccessors">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="PropertySummaryDocumentationMustOmitSetAccessorWithRestrictedAccess">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="ElementDocumentationMustNotBeCopiedAndPasted">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="SingleLineCommentsMustNotUseDocumentationStyleSlashes">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="DocumentationTextMustNotBeEmpty">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="DocumentationTextMustContainWhitespace">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="DocumentationMustMeetCharacterPercentage">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="ConstructorSummaryDocumentationMustBeginWithStandardText">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="DestructorSummaryDocumentationMustBeginWithStandardText">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="DocumentationHeadersMustNotContainBlankLines">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="IncludedDocumentationXPathDoesNotExist">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="IncludeNodeDoesNotContainValidFileAndPath">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="InheritDocMustBeUsedWithInheritingClass">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="ElementDocumentationMustBeSpelledCorrectly">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="FileMustHaveHeader">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="FileHeaderMustShowCopyright">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="FileHeaderMustHaveCopyrightText">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="FileHeaderMustContainFileName">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="FileHeaderFileNameDocumentationMustMatchFileName">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="FileHeaderMustHaveValidCompanyText">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+				<Rule Name="FileHeaderFileNameDocumentationMustMatchTypeName">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+			</Rules>
+			<AnalyzerSettings>
+				<StringProperty Name="CompanyName">eMedia Intellect</StringProperty>
+				<StringProperty Name="Copyright">Copyright © 2019 eMedia Intellect.</StringProperty>
+			</AnalyzerSettings>
+		</Analyzer>
+		<Analyzer AnalyzerId="StyleCop.CSharp.SpacingRules">
+			<Rules>
+				<Rule Name="TabsMustNotBeUsed">
+					<RuleSettings>
+						<BooleanProperty Name="Enabled">False</BooleanProperty>
+					</RuleSettings>
+				</Rule>
+			</Rules>
+		</Analyzer>
+	</Analyzers>
+	<GlobalSettings>
+		<BooleanProperty Name="WriteCache">False</BooleanProperty>
+		<IntegerProperty Name="DaysToCheckForUpdates">0</IntegerProperty>
+		<StringProperty Name="Culture">en-GB</StringProperty>
+	</GlobalSettings>
+</StyleCopSettings>
